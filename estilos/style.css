@@ -12,6 +12,7 @@ body {
     font-style: normal;
     background-color: #e3d4ffc0;
     overflow-x: hidden;
+
 }
 
 header {
@@ -24,7 +25,7 @@ header {
     font-style: normal;
     font-size: 1.1em;
     box-shadow: 5px 5px 5px 1px rgba(255, 255, 255, 0.274);
-    width: 100%;
+    width: auto;
 }
 
 header h1 {
