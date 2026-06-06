@@ -52,10 +52,11 @@ header h2 {
     border: 0px solid #24153f77;
     float: left;
     background-color: #30126900;
-    width: 111%;
+    width: 100vw;
     text-align: center;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
+    font-size: 1.2em;
     margin: -25px ;
     padding: 0px 10px;
     box-shadow: 0px 10px 10px -9px rgb(0, 0, 0);
@@ -383,4 +384,11 @@ footer #socials .contato .titu {
 footer #socials .contato .email a {
   text-decoration: underline;
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        font-size: 1em;
+        margin: -23px;
+    }
 }
